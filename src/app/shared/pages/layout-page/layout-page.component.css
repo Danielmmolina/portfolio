@@ -1,0 +1,28 @@
+:host {
+  display: block;
+}
+
+div {
+  height: 160px;
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+li {
+  font-size: var(--font-size-s);
+  font-weight: var(--font-medium);
+  color: var(--secondary-color);
+  margin-right: var(--margin-m);
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li.active{
+  text-decoration: underline;
+  color: var(--secondary-color);
+  text-underline-offset: var(--margin-s);
+  text-decoration-thickness: 3px;
+}
+

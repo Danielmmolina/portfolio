@@ -1,0 +1,33 @@
+:root {
+  /* Colores */
+  --primary-color: #000000;
+  --secondary-color: #E1AD01;
+  --tertiary-color: #FFFFFF;
+
+   /* Grosor fuente */
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+   /* Tamaño de fuente */
+  --font-size-xxl: 6rem;
+  --font-size-xl: 4rem;
+  --font-size-l: 3rem;
+  --font-size-m: 2.5rem;
+  --font-size-s: 2rem;
+  --font-size-xs: 1.75rem;
+  --font-size-xxs: 1rem;
+
+   /* Márgenes */
+   --margin-xl: 8.75rem;
+   --margin-l: 4rem;
+   --margin-m: 1.875rem;
+   --margin-s: 1rem;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  color: var(--tertiary-color);
+}

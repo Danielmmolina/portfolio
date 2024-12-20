@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col d-flex justify-content-end align-items-center">
+    @for (item of itemsMenu; track $index) {
+    <ul>
+      <li [routerLink]="item.url" routerLinkActive="active">
+        {{ item.label }}
+      </li>
+    </ul>
+    }
+  </div>
+  <router-outlet />
+</div>
