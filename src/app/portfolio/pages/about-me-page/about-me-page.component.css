@@ -1,0 +1,46 @@
+img{
+  width: 695px;
+  height: 740px;
+  margin-left: 100px;
+}
+
+.txtTitle{
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-medium);
+  color: var(--secondary-color);
+}
+
+.txtDescription{
+  font-size: var(--font-size-s);
+  font-weight: var(--font-regular);
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.txtLabel {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-semibold);
+  min-width: 130px;
+  text-align: left;
+}
+
+.txtColon {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-semibold);
+}
+
+.txtInformation {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-regular);
+  color: var(--terciary-color);
+}
+
+.txtProjects{
+  font-size: var(--font-size-xxs);
+  font-weight: var(--font-medium);
+}
