@@ -3,7 +3,7 @@ import { Component, inject, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'shared-btn',
+  selector: 'app-btn',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './btn.component.html',
@@ -15,10 +15,6 @@ export class BtnComponent {
   public btn!: String;
 
   public router = inject(Router);
-
-  goToAboutMe() {
-    this.router.navigate(['./portfolio/about-me']);
-  }
 
   goToProjects() {
     this.router.navigate(['./portfolio/projects']);

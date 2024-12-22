@@ -13,6 +13,11 @@ img{
   font-weight: var(--font-medium);
 }
 
+.txtDescription{
+  font-size: var(--font-size-s);
+  font-weight: var(--font-regular);
+}
+
 span{
   font-size:var(--font-size-xl);
   font-weight: var(--font-bold);
@@ -24,4 +29,17 @@ p{
 
 .txtColor{
   color: var(--secondary-color);
+}
+
+.txtProjects{
+  font-size: var(--font-size-xxs);
+  font-weight: var(--font-medium);
+}
+
+.icon{
+  height: 80px;
+  width: 80px;
+  margin-top: 15px;
+  margin-right: 50px;
+  cursor: pointer;
 }

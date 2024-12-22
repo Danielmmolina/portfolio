@@ -11,11 +11,6 @@ export const routes: Routes = [
         loadComponent: () => import('./portfolio/pages/welcome-page/welcome-page.component')
       },
       {
-        path: 'about-me',
-        title: 'About me',
-        loadComponent: () => import('./portfolio/pages/about-me-page/about-me-page.component')
-      },
-      {
         path: 'projects',
         title: 'Projects',
         loadComponent: () => import('./portfolio/pages/projects-page/projects-page.component')

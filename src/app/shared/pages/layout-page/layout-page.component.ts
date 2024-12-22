@@ -14,7 +14,6 @@ export class LayoutPageComponent {
 
   public itemsMenu = [
     { label: 'Inicio', url: './portfolio/welcome'},
-    { label: 'Sobre mí', url: './portfolio/about-me'},
     { label: 'Proyectos', url: './portfolio/projects'},
   ];
 
