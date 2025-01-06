@@ -1,0 +1,27 @@
+.card {
+  background-color: transparent;
+  border-width: 2px;
+  border-color: var(--secondary-color);
+  border-radius: 10px;
+  width: 18rem
+}
+
+h5{
+  color: var(--secondary-color);
+  font-size: var(--font-size-s);
+  font-weight: var(--font-medium);
+}
+
+p{
+  color: var(--tertiary-color);
+  font-size: var(--font-size-xxs);
+  font-weight: var(--font-regular);
+}
+
+a{
+  cursor: pointer;
+  color: var(--secondary-color);
+  font-size: var(--font-size-xs);
+  text-decoration: none;
+  font-weight: var(--font-medium);
+}

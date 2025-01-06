@@ -15,11 +15,11 @@ export const routes: Routes = [
         title: 'Projects',
         loadComponent: () => import('./portfolio/pages/projects-page/projects-page.component')
       },
-      // {
-      //   path: 'project/:id',
-      //   title: 'Project',
-      //   loadComponent: () => import('./portfolio/pages/projects-page/projects-page.component')
-      // },
+      {
+        path: 'project/:id',
+        title: 'Project',
+        loadComponent: () => import('./portfolio/pages/view-project-page/view-project-page.component')
+      },
       {
         path: '**',
         redirectTo: 'welcome'
